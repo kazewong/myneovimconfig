@@ -67,6 +67,17 @@ require("lazy").setup({
 		},
 		{ "nvim-treesitter/nvim-treesitter", build = ":TSUpdate" },
 		{
+			"luckasRanarison/tailwind-tools.nvim",
+			name = "tailwind-tools",
+			build = ":UpdateRemotePlugins",
+			dependencies = {
+				"nvim-treesitter/nvim-treesitter",
+				"nvim-telescope/telescope.nvim", -- optional
+				"neovim/nvim-lspconfig", -- optional
+			},
+			opts = {}, -- your configuration
+		},
+		{
 			{
 				"VonHeikemen/lsp-zero.nvim",
 				branch = "v4.x",
