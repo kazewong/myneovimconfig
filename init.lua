@@ -87,3 +87,7 @@ require("nvim-treesitter.configs").setup({
 require("tailwind-tools").setup({
 	-- your configuration
 })
+
+vim.cmd("Neo")
+vim.cmd("vertical resize 30")
+

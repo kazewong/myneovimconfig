@@ -66,6 +66,7 @@ require("lazy").setup({
 			tag = "0.1.8",
 		},
 		{ "nvim-treesitter/nvim-treesitter", build = ":TSUpdate" },
+		{ "github/copilot.vim"},
 		{
 			"luckasRanarison/tailwind-tools.nvim",
 			name = "tailwind-tools",
